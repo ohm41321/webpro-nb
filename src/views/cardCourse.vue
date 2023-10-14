@@ -52,7 +52,7 @@ const data_course = course_store.courseList
 /* bt-bt */
 .course-card-bt {
   background-color: #ffd166;
-  margin: 10px;
+  margin: 10px ;
   color: #000;
   font-weight: 700;
   font-size: 16px;
@@ -136,6 +136,7 @@ const data_course = course_store.courseList
   align-items: left;
   position: relative;
   transition: all .5s ease;
+  margin: 0 auto;
 }
 
 .course-card::before {
@@ -203,7 +204,7 @@ const data_course = course_store.courseList
 
 @media screen and (max-width: 1450px) {
   .grid-card-course{
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
 }

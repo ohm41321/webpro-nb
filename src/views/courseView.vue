@@ -76,8 +76,11 @@ import '../assets/font.css'
 .title-name-courseview{
   text-align: left;
   margin-bottom: 30px;
+  color: #ffa601;
 }
-
+.pic-res-course-view{
+   margin-top: 10px;
+  }
 
 
 @media screen and (max-width: 1400px) {

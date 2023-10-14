@@ -3,7 +3,7 @@
     <div class="grid-preview">
         <div class="text-preview-left">
             <h1 class="title-name-preview">Music Class</h1>
-            <h4 class="datail-text-preview">"Unlock your musical potential with our Music Courses!"</h4>
+            <h4 class="detail-text-preview">"Unlock your musical potential with our Music Courses!"</h4>
         </div>
         <div class="pic-preview-right">
             <img class="pic-res-right" src="https://www.absoluteanime.com/k-on/yui.gif" width="500" height="620" style="object-fit: cover;" >
@@ -16,14 +16,14 @@
         </div>
         <div class="text-preview-right">
             <h1 class="title-name-preview">Cooking Class</h1>
-            <h4 class="datail-text-preview">"Discover the art of culinary delights with our Cooking Courses!"</h4>
+            <h4 class="detail-text-preview">"Discover the art of culinary delights with our Cooking Courses!"</h4>
         </div>
     </div> <br>
     <hr class="line">
     <div class="grid-preview">
         <div class="text-preview-left">
             <h1 class="title-name-preview">Drawing Class</h1>
-            <h4 class="datail-text-preview">"Unleash your creativity with our Drawing Courses!"</h4>
+            <h4 class="detail-text-preview">"Unleash your creativity with our Drawing Courses!"</h4>
         </div>
         <div class="pic-preview">
             <img class="pic-res-right"  src="https://scontent.fbkk12-1.fna.fbcdn.net/v/t1.15752-9/387563060_194669096981130_9094201529893012578_n.png?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeF92bj0h4eTb4crD4xh6WZtF2Z-bTJlmugXZn5tMmWa6Bf-LSpsgzr1PTAL9AU_M8aYpO1Ekt8IbB5RjjO72_X4&_nc_ohc=b_h7Q2lXYJ0AX-46YUJ&_nc_ht=scontent.fbkk12-1.fna&_nc_e2o=s&oh=03_AdRUavb7mbaeIu81fjL-kzHAItMjD4yJnZ9gajP330xxMQ&oe=65490996" width="450" height="620" style="object-fit: cover;">
@@ -36,7 +36,7 @@
         </div>
         <div class="text-preview-right">
             <h1 class="title-name-preview">Exercise Class</h1>
-            <h4 class="datail-text-preview">"Get active and stay healthy with our Exercise Courses!"</h4>
+            <h4 class="detail-text-preview">"Get active and stay healthy with our Exercise Courses!"</h4>
         </div>
     </div> <br>
 </div> <br> 
@@ -45,6 +45,12 @@
 
 </script>
 <style>
+.title-name-preview{
+    color: #ffa601;
+}
+.detail-text-preview{
+    color: rgb(222, 222, 222);
+}
 .pic-res-left{
     transition: 1s;
     margin-right: -5rem;

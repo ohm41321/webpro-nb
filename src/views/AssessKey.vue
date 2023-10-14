@@ -73,8 +73,8 @@ body{
   margin: 1rem auto;
   padding: 20px;
   justify-content: center;
-  background-image: linear-gradient(to right, #FFC69E, #ffa601b6);
-  border-radius: 0;
+  background-image: linear-gradient(to top, #3f3f3f, #ffa601c5);
+  border-radius: 90px;
 }
   .asd{
   color: #ffa601;
@@ -96,6 +96,7 @@ body{
 .content-items{
   justify-content: center;
     text-align: left;
+    margin: 0 15rem;
 }
 :root {
   --char-w: 1ch;
